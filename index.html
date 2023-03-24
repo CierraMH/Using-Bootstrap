@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cierra Bootstrap Practice</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1 {
+        background-image: url("https://thumbnails.production.thenounproject.com/fhPmum44__ZQ1Y7Ml-Zu-EkxDmY=/fit-in/1000x1000/photos.production.thenounproject.com/photos/7826B047-C156-44F2-A947-1C028AEADEFC.jpg"); color: #0dcaf0; font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h2{
+            color: #0dcaf0;
+        }
+    </style>
+  </head>
+  <body style="background-color: gainsboro;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="color: #0dcaf0;">SEASONS</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Weather</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      GALLERY
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Spring</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li></li>
+                      <li><a class="dropdown-item" href="#">Summer</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li></li>
+                      <li><a class="dropdown-item" href="#">Fall</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Winter</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-info" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="px-4 py-5 my-5 text-center">
+          <img
+            class="d-block mx-auto mb-4"
+            src="https://thumbnails.production.thenounproject.com/jz4HsDK2JCjodOc9giFzU_zrnoQ=/fit-in/1000x1000/photos.production.thenounproject.com/photos/A4A596C4-378F-429B-989F-D05AF869D52E.jpg"
+            alt="Seasons Cycle"
+            width="250rem"
+          />
+          <h1 class="display-5 fw-bold text-body-emphasis">
+            The Seasons in Cycle
+          </h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              The four seasons—spring, summer, fall, and winter—follow one
+              another regularly. Each has its own light, temperature, and
+              weather patterns that repeat yearly. To receive more information
+              on the seasons of the months please submit your contact
+              information below.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-info">
+                View More Information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic" style="color: #0dcaf0;">About the Seasons:</h4>
+          <p class="mb-0">
+            A season is a period of the year that is distinguished by special
+            climate conditions. Seasons occur because Earth is tilted on its
+            axis relative to the orbital plane, the invisible, flat disc where
+            most objects in the solar system orbit the sun. Earth’s axis is an
+            invisible line that runs through its center, from pole to pole.
+            Earth rotates around its axis.<br />In the Northern Hemisphere,
+            winter generally begins on December 21 or 22. This is the winter
+            solstice, the day of the year with the shortest period of daylight.
+            Summer begins on June 20 or 21, the summer solstice, which has the
+            most daylight of any day in the year. Spring and fall, or autumn,
+            begin on equinoxes, days that have equal amounts of daylight and
+            darkness. The vernal, or spring, equinox falls on March 20 or 21,
+            and the autumnal equinox is on September 22 or 23.
+          </p>
+          <img
+            src="https://thumbnails.production.thenounproject.com/zUWuCRAoT3owH1pDJBnfAI052Eg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/B06A39E6-2146-4B41-902F-016BDB43AFC5.jpg"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-bottom" style="color: #0dcaf0;">Season cards</h2>
+          <div
+            class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
+          >
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="
+                  background-image: url('https://thumbnails.production.thenounproject.com/UuSq_A3jItcMKbk1N4UOha4__qg=/fit-in/1000x1000/photos.production.thenounproject.com/photos/008B6903-0D9D-4911-AAF7-E6372E39C8BB.jpg');
+                "
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: lightgreen;">
+                    The perfect time to go to the lake!
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img
+                        src="https://thumbnails.production.thenounproject.com/MuNkl2jO--QuQNgcSf7UBTSa7bw=/fit-in/1000x1000/photos.production.thenounproject.com/photos/FA6C250A-5ED8-4A55-A751-4D8A83FC5DE8.jpg"
+                        alt="Comment-Icon"
+                        width="32"
+                        height="32"
+                        class="rounded-circle border border-white"
+                      />
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                      <small style="color: lightgreen;">Summer</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small style="color: lightgreen;">June 1 to August 31</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="
+                  background-image: url('https://thumbnails.production.thenounproject.com/AFBNNSygPoFQsL2Hc0beHLegn38=/fit-in/1000x1000/photos.production.thenounproject.com/photos/375A5065-B884-46C4-A159-A7EB1F4925E8.jpg');
+                "
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: darkorange;">
+                    Camp fire time is here, when the leaves start to change
+                    tones!
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img
+                        src="https://thumbnails.production.thenounproject.com/MuNkl2jO--QuQNgcSf7UBTSa7bw=/fit-in/1000x1000/photos.production.thenounproject.com/photos/FA6C250A-5ED8-4A55-A751-4D8A83FC5DE8.jpg"
+                        alt="Comment-Icon"
+                        width="32"
+                        height="32"
+                        class="rounded-circle border border-white"
+                      />
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                      <small style="color: darkorange;">Fall</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small style="color: darkorange;"><strong>September 1 to November 30</strong></small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="
+                  background-image: url('https://thumbnails.production.thenounproject.com/JmcyuxZsYb_fbKgMiv3nPSvBkUU=/fit-in/1000x1000/photos.production.thenounproject.com/photos/C3D35913-050C-4C9F-80FA-A5A0947FC10E.jpg');
+                "
+              />
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #0dcaf0;">
+                    Perfect time to have a snowball fight...
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img
+                        src="https://thumbnails.production.thenounproject.com/DYA-9G0AzNeQSoJ9H00Q8rxVcTc=/fit-in/1000x1000/photos.production.thenounproject.com/photos/968E6265-5CE0-45C4-868C-6DA0424589E5.jpg"
+                        alt="Comment-Icon"
+                        width="32"
+                        height="32"
+                        class="rounded-circle border border-white"
+                      />
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                      <small style="color: #0dcaf0;">Winter</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small style="color: #0dcaf0;"><strong>December 1 to February 28</strong></small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h2>Contact Information</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail4"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Password"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                Check to verify you are a human
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-info">Sign Up</button>
+        </form>
+      </div>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Sources</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
